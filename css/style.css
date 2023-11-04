@@ -1,0 +1,32 @@
+.slider h3,
+.slider h5,
+.clients h3,i { /*text-shadow : css3 x y ( 1px kiri-kekanan 1px atas-kebawah 3px blurnya; kemudian warnanya hitam dengan alfa 0.5)*/
+  text-shadow: 1px 1px 10px rgba(0,91,144,0.9);
+}
+
+.parallax-container{
+  height: 20%;
+}
+
+.parallax img{
+  filter: grayscale(1);
+  opacity: 0.5 !important;
+}
+
+.clients img{
+  /* max-width: 60%; */
+  border-radius: 25%;
+  /* max-height: 70px; */
+  box-shadow: 1px 1px 1px black;
+  /* Berguna untuk text-logo & Berfungsi Untuk mencari transparansi dari sebuah gambar(drop-shadow) */
+  /* filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8)); */
+}
+
+section, footer{
+  padding: 10px 0;
+}
+
+/* // Only necessary for window height sized blocks.
+ html, body {
+   height: 100%;
+ } */
